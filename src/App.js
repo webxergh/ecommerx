@@ -1,9 +1,13 @@
 import React from 'react';
 
+
+//components
+import Navbar from './components/Navbar/Navbar';
+
 function App() {
   return (
     <div className="App container pink">
-      <h1>eStore</h1>
+      <Navbar />
     </div>
   );
 }
